@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnAlaram"
+        android:layout_gravity="end|bottom"
+        android:layout_marginBottom="130dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginLeft="24dp"
+        app:fabSize="mini"
+        android:elevation="6dp"
+        android:translationZ="12dp"
+        android:backgroundTint="@color/colorAccent"
+        android:src="@drawable/ic_baseline_access_alarm_24"
+        android:visibility="invisible"/>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnedit"
+        android:layout_gravity="end|bottom"
+        android:layout_marginBottom="80dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginLeft="24dp"
+        app:fabSize="mini"
+        android:elevation="6dp"
+        android:translationZ="12dp"
+        android:backgroundTint="@color/colorAccent"
+        android:src="@drawable/ic_baseline_edit_24"
+        android:visibility="invisible"/>
+
+
+
+
+
+
+
+
+
+<com.google.android.material.floatingactionbutton.FloatingActionButton
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/btnFab"
+    android:layout_gravity="end|bottom"
+    android:layout_margin="16dp"
+    android:backgroundTint="#E91E63"
+    app:fabSize="normal"
+    android:elevation="6dp"
+    android:translationZ="12dp"
+    android:src="@drawable/ic_baseline_add_24"/>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

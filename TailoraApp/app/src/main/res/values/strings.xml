@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TailoraApp</string>
+    <string name="name">Name</string>
+    <string name="mob_number">Mob.Number</string>
+    <string name="dob_dd_mm_yyyy">DOB dd/mm/yyyy</string>
+    <string name="description">Description</string>
+</resources>

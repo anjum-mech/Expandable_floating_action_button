@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lagn</string>
+    <string name="password">संकेतशब्द</string>
+    <string name="name">नाव</string>
+    <string name="wellcome">वेलकम</string>
+    <string name="login">लॉगिन</string>
+    <string name="chagen_laguge">भाषा बदला</string>
+</resources>
